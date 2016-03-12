@@ -21,5 +21,15 @@ Download the latest release
 ### Step 3
 Run setup.bat
 
-### Step 4
-Run startBot.bat OR enter ```pm2 start Downloader.js``` after opening a command window in the DiscordDownloader folder
+# Bot Operation
+
+By default, the bot has no channels it's active in. Once a channel has been marked as active, the bot will actively download images that A: It doesn't recognize the filename of & B: Are not from an ignored user.
+
+#### The commands are as follows (with ; being replaced with your custom prefix if you chose one):
+
+- ```;enable```
+ - The bot will download images from the channel this is typed in.
+- ```;disable```
+ - The bot will no longer download images from the channel this is typed in.
+- ```;ignore @user```
+ - The bot will ignore the mentioned user, and will not download images from their messages

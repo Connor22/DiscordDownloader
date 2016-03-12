@@ -1,15 +1,9 @@
 {
     "folder": "images",
     "ignoredUsers": [
-        "147570705238589440",
-        "109379894718234624",
-        "110444957231222784",
-        "104867073343127552",
-        "153037688218451968"
     ],
-    "username": "user",
+    "username": "email@provider.domain",
     "password": "password",
     "prefix": ";",
-    "downloaded": [
-    ]
+    "downloaded": []
 }
