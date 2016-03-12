@@ -19,11 +19,13 @@ Install [node.js](https://nodejs.org/en/download/) (this script has been tested 
 Download the latest release
 
 ### Step 3
-Run setup.bat
+Run ```setup.bat```
 
 # Bot Operation
 
 By default, the bot has no channels it's active in. Once a channel has been marked as active, the bot will actively download images that A: It doesn't recognize the filename of & B: Are not from an ignored user.
+
+The files ```_startDownloader.bat``` and ```_stopDownloader.bat``` will stop the process running in the background respectively. 
 
 #### The commands are as follows (with ; being replaced with your custom prefix if you chose one):
 
